@@ -1,0 +1,75 @@
+@@include('include/header.html')
+ <header>
+      <h1>排行榜</h1>
+      <div class="return" onclick="location.href='javascript:history.go(-1);'">
+        <img src="../addons/ewei_exam/images/back.png" class="back"/>
+      </div>
+      <a href="{php echo $this->createMobileUrl('index')}" title="首页" class="ft16 index-word xuan">首页</a>
+    </header>
+<div class="con">
+  <div id="tagContent">
+    <div id="tagContent1" class="tagContent selectTag">
+      <table width="100%" border="0">
+        <tr class="title" id="d_list">
+            <td>排名</td>
+            <td>姓名</td>
+            <td>总题数</td>
+            <td>正确题数</td>
+            <td>正确率</td>
+        </tr>
+    <tr class="shandow ft14">
+        <td><div class=" first"></div></td>
+        <td><!-- {$row['username']} -->贾晓晨</td>
+        <td><!-- {$row['total']} -->20</td>
+        <td><!-- {$row['right']} -->10</td>
+        <td><!-- {$row['rate']}% -->50%</td>
+    </tr>
+    <tr class="grey">
+        <!-- <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td> -->
+    </tr>
+    <tr class="shandow ft14">
+        <td><div class="rank orange">2</div></td>
+        <td><!-- {$row['username']} -->贾晓晨</td>
+        <td><!-- {$row['total']} -->20</td>
+        <td><!-- {$row['right']} -->10</td>
+        <td><!-- {$row['rate']}% -->50%</td>
+    </tr>
+    <tr class="grey">
+       <!--  <td></td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td></td> -->
+    </tr>
+    <tr class="shandow ft14">
+        <td><div class="rank blue">2</div></td>
+        <td><!-- {$row['username']} -->贾晓晨</td>
+        <td><!-- {$row['total']} -->20</td>
+        <td><!-- {$row['right']} -->10</td>
+        <td><!-- {$row['rate']}% -->50%</td>
+    </tr>
+    <tr class="grey">
+        <!-- <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td> -->
+    </tr>
+        <tr id="no_list" style="display: none;">
+          <td colspan="6"><br>还没有排行榜数据</td>
+        </tr>
+        <tr id="d_page" style="display: none;">
+          <td id="d_more" colspan="6" style="padding-top: 15px;padding-bottom: 15px;">点击加载更多排行榜</td>
+        </tr>
+      </table>
+        <!--<div class="more" id="d_page" style="display: none;">-->
+        <!--<a style="" class="ui-link" href="javascript:;" id="d_more">点击加载更多排行榜</a>-->
+        <!--</div>-->
+      </div>
+    </div>
+</div>
+@@include('include/footer.html')

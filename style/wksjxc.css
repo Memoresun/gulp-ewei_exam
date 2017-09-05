@@ -1,0 +1,93 @@
+
+html, body, div, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, input, textarea, p, th, td, button, span, menu, section, nav {margin: 0;padding: 0;}
+a{text-decoration:none;font: 500 0.373333rem/1 "Microsoft Yahei";}
+ul, menu, dir {display: block;list-style-type:none;}
+*{line-height:1.42;}
+body{background-color:#F4F4F4;}
+header{ background-color:#008CFF;  line-height:1.333333; height:1.333333rem; text-align:center; width:100%;}
+header h1{ color:#FFF; height:1.333333rem; font: 600 1.286em/2.8 "微软雅黑"; }
+.cfff{color:#fff;}
+.c666{color:#666;}
+.c4a{color:#4A4A4A;}
+.c75{color:#757575;}
+.clear{clear: both; }
+.fl{float:left;}
+.fr{float:right;}
+.cblack{color:black;}
+.redtext{color:#F84D4D;}
+.bluetext{color:#008CFF;}
+.bgfff{background-color: #fff;}
+.mb2{margin-bottom:0.2rem;}
+/*首页*/
+#nav{background-color:#F4F4F4;position:absolute;width:100%;}
+.box{width:88%; margin:0.746667rem 4% 0.746667rem 8%; overflow:hidden;}
+.box li{ background:#fff; height:4.053333rem; width:46%; float:left; margin:0 4% 4% 0; text-align:center; position:relative;  cursor:pointer; }
+.box li a{display:inline-block; width:100%; height:100%;}
+.box li .word{ left:46%; position:absolute; top:65%;margin-left: -0.5rem;color:#4A4A4A;}
+.box li img{ width:0.853333rem; height:0.933333rem;display:block;left:51%; position:absolute; top:30%;margin-left: -0.5rem;}
+.box li figure{ width:2.52rem; height:2.44rem; position:absolute; left:45%; top:17%;  margin:0px 0px 0px -0.5rem; }
+
+/*课程推荐列表页 course_list*/
+#d_list{width:100%;height:100%;}
+.course_list{padding:0.266667rem 0.4rem;}
+.course_list .single-course{border: 1px solid #DCDCDC; padding:0.32rem;margin-bottom: 0.266667rem}
+.single-course a{display: block;}
+.single-course .course-theme{padding:0.2rem 0;color: #4A4A4A; font-weight: bold;line-height:1.3;}
+.single-course .course-info{color: #4A4A4A;position: relative;height:0.8rem; margin-top: 0.1rem;}
+.course-info .time{position: absolute; left:0;}
+.course-info .number{position: absolute; right:0;}
+.no-result{padding:3rem 0;}
+.no-result .no-info{display:block;width:4.426667rem; height:2.88rem;margin:0 auto;/*position:absolute;left:1rem; top:3rem;*/}
+.no-result .nofind-word{text-align:center; margin-top:0.5rem;}
+.more{height:1.6rem;background: #f2f2f2;width: 100%; text-align: center;line-height: 1.6rem;}
+/*系统帮助页面 about */
+.help{position:relative;}
+.return .back{position:absolute; left:0.3rem; top:0.4rem;width:0.75rem;height:0.5rem;}
+.index-word{color:#FFF;position: absolute; right:0.3rem;top:0.41rem;}
+.help-container{padding:0.426667rem;}
+.help-container .about-theme{font-weight: bold;line-height:1.375;margin-bottom: 0.266667rem;color:#050505; }
+.border{height:2px; border: 1px solid #F0F0F0;}
+.help-container .help-word{line-height:1.52; color:#848689;padding:0.4rem 0;word-wrap:break-word;}
+
+/*课程详情页 course_detail*/
+.course-name{ padding:0.32rem;margin-bottom: 0.266667rem}
+.course-name a{display: block;}
+.course-name .course-theme{padding:0.2rem 0;color: #4A4A4A; font-weight: bold;line-height:1.3;}
+.course-name .detail-info{color: #4A4A4A;height:1rem;margin-top: 0.1rem;}
+
+
+.list{padding:0.3rem 0.5rem;}
+.list .list-one{line-height:1.4; margin-bottom: 0.266667rem;word-wrap:break-word; }
+.list .list-one1{line-height:1.4; margin-bottom: 0.266667rem;margin-left:0.18rem;word-wrap:break-word; }
+
+.signup{ margin-top:0.266667rem; padding:0.3rem 0 0 0;}
+.signup .signup-info{padding: 0 0.4rem 0.3rem 0.6rem; color:#4D4D4D;}
+.list-account{padding:0.3rem 0.8rem;}
+.list-account .list_info{line-height:2.3;}
+.list-account input{display:block;background: #F9F9F9;border: 1px solid #DFDFDF;margin-top: 0.1rem;
+border-radius: 4px;width:8.053333rem; height: 0.933333rem}
+.data_submit{border: 1px solid #DFDFDF;border-radius: 4px;
+    width: 8.053333rem;height: 0.933333rem;background-color:#008CFF; line-height:1.333333rem; height:1.333333rem; text-align:center; width:100%;}
+
+/*预约列表页book*/
+#b_list{width:100%;height:100%;}
+.book_list .single-book{padding:0.266667rem 0.4rem; margin-bottom: 0.266667rem;}
+.single-book .book-info{margin-bottom: 0.346667rem;border:1px solid #fff;}
+.book-info .book-theme{ width:7.466667rem;color:#424242;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;}
+.book-info .c9b{color:#9B9B9B;}
+.book-time{color: #A9A9A9;}
+
+/*预约详情*/
+.book-status{height:2.24rem;padding:0 0.4rem; line-height:2.24rem; margin-bottom:0.266667rem;}
+/*排行榜*/
+.con{margin-top: 0.1rem; padding:0.1rem 0.2rem;}
+#tagContent1 table{border-spacing:0; border-color: #fff; }
+#tagContent1 table tr td{ text-align:center;border:none;}
+#tagContent1 table .title{ height:1rem; color:#4A4A4A;}
+.shandow{width:100%; height:1.626667rem; background-color: #fff;color:#0E9BFF;}
+.shandow .first{height:0.8rem;background: url("../images/cup.png");background-size:80% 100%;background-repeat:no-repeat;margin-left: 0.25rem;}
+.orange{width:0.6rem;height:0.6rem; border-radius: 50%; margin-left:30%;line-height: 0.6rem;background-color:#FFAA1E;color:#fff;}
+.blue{width:0.6rem;height:0.6rem; border-radius: 50%; margin-left:30%;line-height: 0.6rem;background-color:#E8F3FF;color:#1585FF;}
+.grey{background-color: #F4F4F4;height:0.21rem;}
+.more{ text-align:center; width:100%; position:absolute; bottom:20px;}
+

@@ -1,0 +1,51 @@
+@@include('include/header.html')
+<header>
+  <h1>课程详情</h1>
+  <a href="" title="首页" class="ft16 index-word">首页</a>
+</header>
+        <div class="course-detail">
+          <div class="course-name bgfff">
+              <div class="course-theme ft16">【专项突破】数列求通向方法数列求通向方法数列求通向方法数列求法</div>
+              <div class="detail-info">
+                <div class="ft13 time mb2">授课时间：2017-04-21</div>
+                <div class="ft13 number mb2">已有2000人报名</div>
+                <div class="clear"></div>
+              </div>
+          </div>
+          <div class="list bgfff">
+              <div class="ft14 list-one">【专项突破】</div>
+              <div class="ft14 list-one1 c666">授课时长</div>
+              <div class="ft14 list-one">【课程期数】</div>
+              <div class="ft14 list-one1 c666">第二期</div>
+              <div class="ft14 list-one">【课程简介】</div>
+              <div class="ft14 list-one1 c666">高考数学知识点高考数学知识点高考数学知识点高考数学知识点高考数学知识点高考数学知识点高考数学知识点</div>
+              <div class="ft14 list-one">【课程内容】</div>
+              <div class="ft14 list-one1 c666">高考数学知识点高考数学知识点高考数学知识点高考数学知识点高考数学知识点高考数学知识点高考数学知识点</div>
+              <div class="ft14 list-one">【课程地址】</div>
+              <div class="ft14 list-one1 c666">浙江省 杭州市 浙江大学图书馆</div>
+          </div>
+          <div class="signup bgfff">
+              <div class="signup-info">报名信息</div>
+              <div class="border"></div>
+              <div class="signup-input1">
+                <form name="form1" method="post" action="" id="data_form">
+                  <div class="list-account">
+                    <div class="list_info name c75">姓名*：
+                      <input type="text" placeholder="如 李海" name="username" id="username" value="">
+                    </div>
+                    <div class="list_info name c75">手机*：
+                      <input type="text" placeholder="如 1860532XXXX" name="mobile" id="mobile" value="">
+                    </div>
+                    <div class="list_info name c75">邮箱*：
+                      <input type="text" placeholder="如 name@example.com" name="email" id="email" value="">
+                    </div>
+                  </div>
+                  <button id="data_submit" class="data_submit ft16 cfff">我要预约</button>
+                  <input type="hidden" name="id" value="{$id}"/>
+                  <input type="hidden" name="submit" value="1"/>
+                  <input type="hidden" name="token" value="{$_W['token']}"/>
+              </form>
+              </div>
+          </div>
+        </div>
+@@include('include/footer.html')

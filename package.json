@@ -1,0 +1,31 @@
+{
+  "name": "gulp-ewei_exam",
+  "version": "1.0.0",
+  "description": "ewei_exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Memoresun/gulp-ewei_exam.git"
+  },
+  "keywords": [
+    "exam"
+  ],
+  "author": "memoresun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Memoresun/gulp-ewei_exam/issues"
+  },
+  "homepage": "https://github.com/Memoresun/gulp-ewei_exam#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.8.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-file-include": "^1.2.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
